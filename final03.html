@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>좋아하는 화</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: 'DungGeunMo';
+            font-size: 14px;
+            color: #444444;
+        }
+        li {
+            list-style-type:none;
+        }
+        .clear {
+            clear: both;
+        }
+        header {
+            width: 100%;
+            height: 150px;
+            margin: 0 auto;
+            background-color: #000000;
+        }
+        #header_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+        }      
+        #header_logo {
+            float: left;
+            margin: 50px 30px 0 0;
+            color: white;
+        }
+        #logo {
+            float: left;
+            margin: 40px 0 0 40px;
+        }
+        #menus {
+            float: right;
+            color: white;
+        }
+        #top_menu {
+            text-align: right;
+            margin-top: 20px;
+            margin-right: 110px;
+            color: white;
+        }
+        #main_menu {
+            width: 1140px;
+            height: 150px;
+            margin-top: 20px;
+            font-family: 'DungGeunMo';
+            font-size: 20px;
+            color: black;
+        }
+        #main_menu li {
+            display: inline;
+            margin-left: 80px;
+            color: white;
+        }
+        #main_img {
+            width: 100%;
+            height: 423px;
+            background-image: url('img2/main_img.jpg');
+            background-repeat: no-repeat;
+            background-position: top center;
+         
+        }
+        #contents {
+            width: 1140px;
+            margin: 0 auto;
+        }
+        #sub_menu {
+            width: 234px;
+            float: left;
+            margin-top: 25px;
+        }
+        #sub_menu h3 {
+            font-size: 18px;
+            color: #5df0c0;
+            padding: 12px;
+            background-color: #000000;
+        }
+        #sub_menu li {
+            padding: 10px;
+            border-bottom: dotted 1px #000000;
+        }
+        #main_contents h3 {
+            font-size: 25px;
+            padding-bottom: 8px;
+            border-bottom: solid 1px #000000;
+        }
+        #main-contents p {
+            font-size: 24px;
+            margin-top: 30px;
+            line-height: 180%;
+            color: black;
+        }
+        #main_contents #figure {
+            margin-top: 30px;
+            text-align: center;
+        }
+        #main_contents li {
+            padding: 5px;
+        }
+        footer {
+            width: 100%;
+            height: 150px;
+            margin-top: 30px;
+            background-color: #000000;
+        }
+        #footer_box {
+            width: 1140px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        #footer_logo {
+            float: left;
+            margin: 50px 30px 0 0;
+            color: white;
+        }
+        #address {
+            float: right;
+            margin: 50px 30px 0 0;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+           <a href="final.html"><img src="img2/gum.png"></a> 
+        </div>
+        <nav id="menus">
+            <div id="top_menu">
+                로그인 ¦ 회원가입 ¦ 공지사항
+            </div>
+            <ul id="main_menu">
+                <li><a href="final01.html">애니메이션 정보</a></li>
+                <li><a href="final02.html">캐릭터 소개</a></li>
+                <li><a href="final03.html">좋아하는 화</a></li>
+                <li><a href="final04.html">캐릭터 굿즈</a></li>
+                <li><a href="final05.html">그 외 추천</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="contents">
+        <div id="main_contents">
+            <h3>💙Favorite Episodes Top.01💙</h3>
+            <p>
+                The Origins Part 1 <br>
+                Darwin Watterson과의 첫만남이었던 에피소드!!
+            <div id="figure">
+                <video src="img2/v1.mp4" autoplay controls loop></video>
+                </div>
+                <h3>💙Favorite Episodes Top.02💙</h3>
+                <p>
+                    시즌 2 '영웅' 에피소드 아빠 리처드의 자식에 대한 사랑이 느껴지는 에피소드임.
+                    <br> 에피소드 속 노래임. 
+                    </p>
+                     <div id="figure">
+                        <video src="img2/v2.mp4" autoplay controls loop></video>
+                        </div>
+        </div>
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <div id="footer_box">
+            <div id="footer_logo">
+                <img src="img2/gum.png">
+            </div>
+            <ul id="address">
+                <li> Use of this site signifies your agreement to the Terms of Use. <br>
+                    TM & ⓒ 2023 Cartoon Network. A Warner Bros. Discovery Company. <br>
+                    All Rights Reserved.</li>
+                <li>Tel. 2922-3820</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
